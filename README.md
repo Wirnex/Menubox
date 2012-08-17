@@ -4,7 +4,7 @@ by Igor Pletenev
 igor@wirnex.ru
 http://menubox.wirnex.ru
 
-Menubox allows you to create navigation menu on your site. It doesn't have any external dependencies. It's main feature is automatically detection of active menu item based on CakePHP request information. It's possible to create nested drop down menus. No deep limit.
+Menubox allows you to create navigation menu on your CakePHP site. It doesn't have any external dependencies. It's main feature is automatically detection of active menu item based on CakePHP request information. It's possible to create nested drop down menus. No deep limit.
 
 1. Requirements
 	CakePHP 2.1+
