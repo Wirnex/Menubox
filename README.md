@@ -66,5 +66,6 @@ Menubox allows you to create navigation menu on your site. It doesn't have any e
 	);
 ```
 	3.2 Render menu
-
+```
 	echo $this->Menu->menu($memuitems, array('class'=>'menu'), array());
+```	
