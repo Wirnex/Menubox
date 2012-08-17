@@ -32,7 +32,7 @@ Menubox allows you to create navigation menu on your site. It doesn't have any e
 3. Usage
 
 	3.1 Prepare array with menu items
-
+```
 	$memuitems = array(
 		'Microsoft' => array(
 			'Windows' => array(
@@ -64,7 +64,7 @@ Menubox allows you to create navigation menu on your site. It doesn't have any e
 			'etc'			=> array('controller'=>'msn', 'action'=>'etc')
 		)
 	);
-
+```
 	3.2 Render menu
 
 	echo $this->Menu->menu($memuitems, array('class'=>'menu'), array());
