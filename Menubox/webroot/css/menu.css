@@ -1,0 +1,37 @@
+/* 
+    Document   : menu.css
+    Created on : Aug 14, 2012, 5:39:45 PM
+    Author     : Igor Pletenev
+    Description:
+	Purpose of the stylesheet follows.
+*/
+
+/* base css */
+ul.menubox { margin: 0; padding: 0; cursor: pointer; display: block; }
+.menubox * { margin: 0; padding: 0; list-style: none; }
+ul.menubox > li { display: block; }
+.menubox li { float: left; display: block; position: relative; }
+.menubox li ul { position: absolute; display: inline-block; visibility: hidden; z-index: 100; }
+.menubox ul li { float: none; }
+.menubox > li > .title {  }
+.menubox li:hover > ul { visibility: visible; }
+.menubox .title { white-space: nowrap; display: block; }
+.menubox li a { display: block; }
+.menubox .submenu .submenu ul { top: 1px; left: 100%; }
+
+/* vertical */
+.menubox.orient-ver li { float: none; }
+.menubox.orient-ver { display: inline-block; }
+.menubox.orient-ver ul { top: 1px; left: 100%; }
+
+/* default theme */
+.menubox.theme-default { color: #bfbfbf; }
+.menubox.theme-default li { background-color: #333333;  border: 0.0625em solid #333333; }
+.menubox.theme-default ul { margin-top: -0.0625em; border: 0.0625em solid #d9d9f4; }
+.menubox.theme-default li:hover { background-color: #377d9f; }
+.menubox.theme-default .title { padding: 0.3em 0.6em; }
+.menubox.theme-default a { text-decoration: none; color: #bfbfbf; }
+.menubox.theme-default li.active > .title { color: white; }
+.menubox.theme-default li:hover.active { background-color: #377d9f; }
+.menubox.theme-default .title:hover { text-decoration: underline; }
+.menubox.theme-default .active > .title:hover { text-decoration: none; }
