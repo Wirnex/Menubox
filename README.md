@@ -6,6 +6,9 @@ http://menubox.wirnex.ru
 
 This is a CakePHP menu plugin. Menubox allows you to quickly create navigation menu on your CakePHP site. It doesn't have any external dependencies. It's main feature is automatically detection of active menu item based on CakePHP request information. It's possible to create nested drop down menus. No deep limit.
 
+0. Demo
+	http://menubox.wirnex.ru
+
 1. Requirements
 	CakePHP 2.1+
 
