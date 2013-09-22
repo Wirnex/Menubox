@@ -30,8 +30,9 @@ ul.menubox > li { display: block; }
 .menubox.theme-default ul { margin-top: -0.0625em; border: 0.0625em solid #d9d9f4; }
 .menubox.theme-default li:hover { background-color: #377d9f; }
 .menubox.theme-default .title { padding: 0.3em 0.6em; }
-.menubox.theme-default a { text-decoration: none; color: #bfbfbf; }
+.menubox.theme-default a { /*text-decoration: none;*/ color: #bfbfbf; }
 .menubox.theme-default li.active > .title { color: white; }
+.menubox.theme-default li.active > a > .title { color: white; }
 .menubox.theme-default li:hover.active { background-color: #377d9f; }
-.menubox.theme-default .title:hover { text-decoration: underline; }
-.menubox.theme-default .active > .title:hover { text-decoration: none; }
+.menubox.theme-default .title:hover { /*text-decoration: underline;*/ }
+.menubox.theme-default .active > .title:hover { /*text-decoration: none;*/ }
